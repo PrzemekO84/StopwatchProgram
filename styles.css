@@ -1,0 +1,95 @@
+/* Colors */
+
+.first-color { 
+	background: #363b4e; 
+}
+
+.second-color { 
+	background: #4f3b78; 
+}
+
+.third-color { 
+	background: #927fbf; 
+}
+
+.fourth-color { 
+	background: #c4bbf0; 
+}
+
+/* Colors */
+
+body{
+    background: radial-gradient(circle at 10% 20%, rgb(0, 0, 0) 0%, rgb(64, 64, 64) 90.2%);
+    font-family:'Segoe UI', Tahoma, sans-serif;
+    color: bisque;
+}
+
+/* Timer container */
+
+.timer-container{
+    border: 5px solid #927fbf;
+    border-radius: 40px;
+    box-shadow: 5px 5px 10px #4f3b78,
+    -5px -5px 10px #927fbf;
+    width: 60%;
+    margin: auto;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    color: #c4bbf0;
+    background-color: #4f3b78;
+}
+
+#timer{
+    text-align: center;
+    border: 3px solid #927fbf;
+    border-radius: 10px;
+    padding: 25px;
+    font-size: 5em;
+    background-color: #363b4e;
+} 
+
+/* Timer container */
+
+/* Option container */
+
+.option-container{
+    display: flex;
+    justify-content: space-evenly;
+    border: 5px solid #927fbf;
+    border-radius: 30px;
+    box-shadow: 5px 5px 10px #4f3b78,
+    -5px -5px 10px #927fbf;
+    align-self: center;
+    margin: auto;
+    margin-top: 50px;
+    width: 70%;
+    padding: 30px;
+    background-color: #4f3b78;
+}
+.timerOption{
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    border: 4px solid #363b4e;
+    border-radius: 50px;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    background-color: #927fbf;
+}
+
+button{
+    font-size: 2em;
+    padding: 15px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    color:#c4bbf0;
+    background-color: #363b4e;
+}
+
+/* Option container */
+
+
+
