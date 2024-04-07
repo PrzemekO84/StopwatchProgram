@@ -36,18 +36,25 @@ body{
     margin-top: 80px;
     display: flex;
     justify-content: center;
-    color: #c4bbf0;
     background-color: #4f3b78;
 }
 
 #timer{
     text-align: center;
     border: 3px solid #927fbf;
+    color: #c4bbf0;
     border-radius: 10px;
     padding: 25px;
     font-size: 5em;
     background-color: #363b4e;
+    transition: color ease 0.5s,
+    border-color ease 0.5s;
 } 
+
+#timer:hover{
+    color: hsl(258, 33%, 92%);
+    border-color: hsl(258, 33%, 82%);
+}
 
 /* Timer container */
 
@@ -77,6 +84,12 @@ body{
     height: 100px;
     text-align: center;
     background-color: #927fbf;
+    transition: color ease 0.5s,
+    border-color ease 1s;
+}
+
+.timerOption:hover{
+    border-color: hsl(258, 33%, 82%);
 }
 
 button{
@@ -87,6 +100,15 @@ button{
     cursor: pointer;
     color:#c4bbf0;
     background-color: #363b4e;
+    transition: color ease 1s;
+}
+
+button:hover{
+    color: hsl(258, 33%, 100%);
+}
+
+button:active{
+    color: aqua;
 }
 
 /* Option container */
